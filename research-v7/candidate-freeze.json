@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-11-11T05:19:04.549Z",
+  "researchFreezeSha256": "7295dc003ceb731f5c1c0b1caf6c384ea5772e064f01235e3f40d17a916862f1",
+  "selectionRule": {
+    "is": "trades>=30, PF>1.10, netPnl>0, maxDD<=5%; rank by IS return/maxDD, deterministic configId tie-break.",
+    "validation": "trades>=10, PF>1, netPnl>0; stress 1.5x netPnl>0; >=3/4 IS subperiods positive; concentration<=60%.",
+    "freeze": "Maximum five candidates, ranked only by IS among validation-passing configurations, before TEST.",
+    "holdout": "trades>=10, PF>1, netPnl>0, maxDD<=5%; no reranking or reoptimization after opening.",
+    "promotion": "New paper validation only, never live and never automatic activation."
+  },
+  "prefilteredCount": 0,
+  "candidates": [],
+  "candidateConfigIds": [],
+  "maximumCandidates": 5,
+  "testOpened": false,
+  "noRetuningAfterThisFile": true,
+  "liveTradingAllowed": false,
+  "realOrdersSubmitted": false
+}
