@@ -1,0 +1,43 @@
+# Credentials and local configuration
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Dependencies and builds
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Databases and local state
+*.db
+*.sqlite
+*.sqlite3
+*.pid
+*.local
+
+# Logs
+*.log
+logs/
+
+# Raw research data — never publish credentials or provider payloads
+research-v7/snapshot/
+research-v7/news-snapshot.json
+research-v7/event-dataset.json
+research-v7/event-study-rows.json
+research-v7/development-runs.jsonl
+research-v6-legacy/snapshot/
+
+# Locally materialized full copy
+northstar-full/
+
+# Temporary files and OS/editor metadata
+*.tmp
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
