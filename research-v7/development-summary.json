@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-11T05:19:04.654Z",
+  "configurations": 576,
+  "uniqueConfigurations": 576,
+  "developmentRuns": 1152,
+  "errors": [],
+  "zeroTrades": {
+    "IS": 0,
+    "VALIDATION": 24
+  },
+  "negativePnl": {
+    "IS": 565,
+    "VALIDATION": 510
+  },
+  "byFamily": {
+    "EARNINGS_DRIFT": {
+      "configurations": 96,
+      "isPositive": 0,
+      "validationPositive": 0,
+      "prefiltered": 0,
+      "candidates": 0
+    },
+    "OVERNIGHT_CONFIRMED_CONTINUATION": {
+      "configurations": 96,
+      "isPositive": 0,
+      "validationPositive": 6,
+      "prefiltered": 0,
+      "candidates": 0
+    },
+    "VWAP_REJECTION_FADE": {
+      "configurations": 96,
+      "isPositive": 11,
+      "validationPositive": 13,
+      "prefiltered": 0,
+      "candidates": 0
+    },
+    "VOLUME_CONFIRMED_CONTINUATION": {
+      "configurations": 96,
+      "isPositive": 0,
+      "validationPositive": 9,
+      "prefiltered": 0,
+      "candidates": 0
+    },
+    "EXTREME_REACTION_FADE": {
+      "configurations": 96,
+      "isPositive": 0,
+      "validationPositive": 0,
+      "prefiltered": 0,
+      "candidates": 0
+    },
+    "REACTION_CONTINUATION": {
+      "configurations": 96,
+      "isPositive": 0,
+      "validationPositive": 14,
+      "prefiltered": 0,
+      "candidates": 0
+    }
+  },
+  "prefilteredCount": 0,
+  "candidateConfigIds": [],
+  "candidateFreezeSha256": "aefb027d28915ee93bba44fe88d6340ae7a3c03e21a0db12d48b7b0cc82d014a",
+  "selectionDetailsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "testComputed": false
+}
